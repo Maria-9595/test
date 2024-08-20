@@ -12,7 +12,7 @@ if (isset($_POST['exit'])) {
 }
 ?>
 
-<h1>Вы вошли, <?=$user->login?></h1>
+<h1>Вы вошли???, <?=$user->login?></h1>
 <form method="post">
     <input type="submit" value="Выход" name="exit">
 </form>
